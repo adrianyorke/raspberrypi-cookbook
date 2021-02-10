@@ -1,4 +1,4 @@
-# raspberrypi-cookbook
+# <img src="img/Raspberry%20Pi%20Logo/Colour/Screen/PNG/RPi-Logo-Stacked-Reg-SCREEN.png" width="100"/><br>raspberrypi-cookbook
 
 A curated list of Raspberry Pi recipes to help beginner and intermediate Raspberry Pi enthusiasts configure Pi devices and build their projects.
 
