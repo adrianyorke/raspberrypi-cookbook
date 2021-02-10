@@ -4,6 +4,7 @@ A curated list of Raspberry Pi recipes to help beginner and intermediate Raspber
 
 # Other useful resources
 * [Raspberry Pi Foundation](https://www.raspberrypi.org/)
+* [Official Products](https://www.raspberrypi.org/products/)
 
 # Table of Contents
 1. Basic Configuration<br>
