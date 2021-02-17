@@ -17,7 +17,7 @@ A curated list of Raspberry Pi recipes to help beginner and intermediate Raspber
 1. More Advanced Configuration<br>
    * [Recipe 2.1 - Overclocking](src/section_02/recipe_02_01.md)<br>
    * [Recipe 2.2 - Running a script at boot using /etc/rc.local](src/section_02/recipe_02_02.md)<br>
-   * [Recipe 2.2 - Running a scheduled script using cron](src/section_02/recipe_02_03.md)<br>
+   * [Recipe 2.3 - Running a scheduled script using cron](src/section_02/recipe_02_03.md)<br>
 
 1. Basic Projects<br>
    * [Recipe 98.1 - Flashing LED](src/section_98/recipe_98_01.md)<br>
