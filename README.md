@@ -12,7 +12,8 @@ A curated list of Raspberry Pi recipes to help beginner and intermediate Raspber
 
 # Table of Contents
 1. Basic Configuration<br>
-   * [Recipe 1.1 - Assigning Static IP Address](src/section_01/recipe_01_01.md)<br>
+   * [Recipe 1.1 - enabling ssh access before first boot](src/section_01/recipe_01_01.md)<br>
+   * [Recipe 1.2 - Assigning Static IP Address](src/section_01/recipe_01_02.md)<br>
 
 1. More Advanced Configuration<br>
    * [Recipe 2.1 - Overclocking](src/section_02/recipe_02_01.md)<br>
