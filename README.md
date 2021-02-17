@@ -17,11 +17,11 @@ A curated list of Raspberry Pi recipes to help beginner and intermediate Raspber
 1. More Advanced Configuration<br>
    * [Recipe 2.1 - Overclocking](src/section_02/recipe_02_01.md)<br>
 
-1. Beginner Projects<br>
+1. Basic Projects<br>
    * [Recipe 98.1 - Flashing LED](src/section_98/recipe_98_01.md)<br>
 
 1. More Advanced Projects<br>
-   * [Recipe 99.1 - Flashing LED](src/section_99/recipe_99_01.md)<br>
+   * [Recipe 99.1 - Magic Mirror](src/section_99/recipe_99_01.md)<br>
 
 ## Contributors ✨
 
