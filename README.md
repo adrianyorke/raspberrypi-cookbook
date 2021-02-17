@@ -12,7 +12,16 @@ A curated list of Raspberry Pi recipes to help beginner and intermediate Raspber
 
 # Table of Contents
 1. Basic Configuration<br>
-   * [Recipe 1.1 - Assigning Static IP Address](src/section_01/recipe011_static_ip.md)<br>
+   * [Recipe 1.1 - Assigning Static IP Address](src/section_01/recipe_01_01.md)<br>
+
+1. More Advanced Configuration<br>
+   * [Recipe 2.1 - Overclocking](src/section_02/recipe_02_01.md)<br>
+
+1. Beginner Projects<br>
+   * [Recipe 98.1 - Flashing LED](src/section_98/recipe_98_01.md)<br>
+
+1. More Advanced Projects<br>
+   * [Recipe 99.1 - Flashing LED](src/section_99/recipe_99_01.md)<br>
 
 ## Contributors ✨
 
