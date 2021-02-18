@@ -14,6 +14,13 @@ A curated list of Raspberry Pi recipes to help beginner and intermediate Raspber
 1. Basic Configuration<br>
    * [Recipe 1.1 - enabling ssh access before first boot](src/section_01/recipe_01_01.md)<br>
    * [Recipe 1.2 - Assigning Static IP Address](src/section_01/recipe_01_02.md)<br>
+   * [Recipe 1.3 - Change VNC Cursor from X to Left Arrow](src/section_01/recipe_01_03.md)<br>
+     https://www.raspberrypi.org/forums/viewtopic.php?f=66&t=122386&p=861126<br>
+     > ```bash
+     > $ cd ~
+     > $ echo "xsetroot -cursor_name left_ptr&" >> .xsessionrc
+     > $ sudo reboot
+     > ```
 
 1. More Advanced Configuration<br>
    * [Recipe 2.1 - Overclocking](src/section_02/recipe_02_01.md)<br>
