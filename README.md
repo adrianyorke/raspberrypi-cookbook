@@ -20,7 +20,7 @@ A curated list of Raspberry Pi recipes to help beginner and intermediate Raspber
    * [Recipe 1.2 - Assigning Static IP Address](src/section_01/recipe_01_02.md)<br>
      https://www.raspberrypi.org/documentation/configuration/tcpip/
      > ```bash
-     > $ sudo /etc/dhcpcd.conf
+     > $ sudo nano /etc/dhcpcd.conf
      > Add the following details:
      > interface eth0
      > static ip_address=192.168.10.???/24
