@@ -18,8 +18,17 @@ A curated list of Raspberry Pi recipes to help beginner and intermediate Raspber
      > $ type nul > ssh
      > ```
    * [Recipe 1.2 - Assigning Static IP Address](src/section_01/recipe_01_02.md)<br>
+     https://www.raspberrypi.org/documentation/configuration/tcpip/
+     > ```bash
+     > $ sudo /etc/dhcpcd.conf
+     > Add the following details:
+     > interface eth0
+     > static ip_address=192.168.10.???/24
+     > static routers=192.168.10.1
+     > static domain_name_servers=127.0.0.1
+     > ```
    * [Recipe 1.3 - Change VNC Cursor from X to Left Arrow](src/section_01/recipe_01_03.md)<br>
-     https://www.raspberrypi.org/forums/viewtopic.php?f=66&t=122386&p=861126<br>
+     https://www.raspberrypi.org/forums/viewtopic.php?f=66&t=122386&p=861126
      > ```bash
      > $ cd ~
      > $ echo "xsetroot -cursor_name left_ptr&" >> .xsessionrc
