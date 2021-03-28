@@ -42,6 +42,7 @@ A curated list of Raspberry Pi recipes to help beginner and intermediate Raspber
 
 1. Basic Projects<br>
    * [Recipe 98.1 - Flashing LED](src/section_98/recipe_98_01.md)<br>
+   * [Recipe 98.2 - Simple database class for recording sensor readings](src/section_98/recipe_98_02.md)<br>
 
 1. More Advanced Projects<br>
    * [Recipe 99.1 - Magic Mirror](src/section_99/recipe_99_01.md)<br>
