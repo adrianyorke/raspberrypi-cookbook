@@ -10,7 +10,7 @@ class Database:
         elif self.is_windows:
             self.connection = sqlite3.connect("readings.db")
         else:
-            self.connection = sqlite3.connect("/home/pi/Projects/bme280py/readings.db")
+            self.connection = sqlite3.connect("/home/pi/readings.db")
         self.cursor = self.connection.cursor()
         self._check_db_schema()
 
