@@ -7,15 +7,15 @@ import time
 
 # Examples:
 # Linux:
-# $ python3 ffmpeg_convert_folder.py /media/usb/ffmpeg/in --crf 20 --preset slow
+# $ python3 ffmpeg_transcode.py /media/usb/ffmpeg/in --crf 20 --preset slow
 # Windows:
-# $ python3 ffmpeg_convert_folder.py D:/ffmpeg/in --crf 20 --preset slow
+# $ python3 ffmpeg_transcode.py D:/ffmpeg/in --crf 20 --preset slow
 
 
 def _get_next_file(path):
     """Helper function to get next file in path."""
     p = sorted(pathlib.Path(path).glob("*"))
-    files = [x for x in p if x.is_file() and not x.name.startswith(".")]  # and "Aliens" in x.name]
+    files = [x for x in p if x.is_file() and not x.name.startswith(".")]
     return files[0] if files else None
 
 
@@ -75,7 +75,7 @@ if __name__ == "__main__":
     if os.name == 'nt':
         default_input_path = "D:/ffmpeg/in" # Windows
     else:
-        default_input_path ="/media/usb/ffmpeg/in"
+        default_input_path ="/home/pi/Projects/ffmpeg/in"
 
     logging.basicConfig(
         level=logging.DEBUG,
@@ -89,6 +89,7 @@ if __name__ == "__main__":
         "--inputpath",
         type=str,
         help="Input directory path.",
+        #nargs='?', # '?' = a single value, which can be optional
         required=False,
         default=default_input_path,
     )
