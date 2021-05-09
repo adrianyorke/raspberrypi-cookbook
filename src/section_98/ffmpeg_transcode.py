@@ -11,6 +11,8 @@ import time
 # Windows:
 # $ python3 ffmpeg_transcode.py D:/ffmpeg/in --crf 20 --preset slow
 
+# This is a great project to test overclocking - see here for more details:
+# https://magpi.raspberrypi.org/articles/how-to-overclock-raspberry-pi-4
 
 def _get_next_file(path):
     """Helper function to get next file in path."""
